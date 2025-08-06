@@ -28,6 +28,7 @@ public class Engine : GameWindow
             Title = title
         })
     {
+        shader = new Shader("Shaders/shader.vert", "Shaders/shader.frag");
     }
 
     protected override void OnUpdateFrame(FrameEventArgs args)
